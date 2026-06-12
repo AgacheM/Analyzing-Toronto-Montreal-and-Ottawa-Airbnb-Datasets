@@ -24,7 +24,9 @@ Google Colab features such as file download are utilized.
 
 ## 2.Usage
 i. Open the notebooks in Google Colab or Jupyter Notebook
+
 ii. Run the cells sequentially
+
 iii. Dependencies will install automatically (Colab users)
 
 ## 3.Licensing
