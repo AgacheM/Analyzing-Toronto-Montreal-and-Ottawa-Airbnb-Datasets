@@ -18,8 +18,9 @@ The recommended way to install dependencies locally is via **PyPI** using `pip`
 
 **Notes**:
 
-Some notebooks generate HTML reports (via ydata-profiling and sweetviz)
-Google Colab features such as file download are utilized
+Some notebooks generate HTML reports (via ydata-profiling and sweetviz).
+
+Google Colab features such as file download are utilized.
 
 ## 2.Usage
 i. Open the notebooks in Google Colab or Jupyter Notebook
