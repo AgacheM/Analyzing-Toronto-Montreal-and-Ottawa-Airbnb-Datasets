@@ -10,8 +10,6 @@ The main purpose is to identify listing features that will maximize revenue for 
 3. Licenses
 
 ## 1.Initialization
-This repository contains data analysis notebooks developed and tested using **Google Colab**. The notebooks focus on exploratory data analysis (EDA), visualization, and automated data profiling.
-
 The code was developed and tested using Python 3.12.13 (64-bit) via [Google Collab](http://colab.research.google.com/), but should be compatible with most Python 3.x versions.
 
 All required libraries are listed and installed at the beginning of each notebook.
