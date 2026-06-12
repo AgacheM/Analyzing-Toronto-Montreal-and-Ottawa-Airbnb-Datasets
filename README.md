@@ -1,4 +1,4 @@
-# Analyzing-Toronto-Airbnb-Dataset
+# Analyzing Toronto Airbnb Dataset
 # Introduction
 An exploratory data analysis on the November 2025 Toronto Airbnb dataset. Developed a predictive machine learning model to identify and evaluate the most significant features driving listing performance. 
 
