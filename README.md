@@ -18,7 +18,8 @@ All required libraries are listed and installed at the beginning of each noteboo
 
 The recommended way to install dependencies locally is via **PyPI** using `pip`
 
-**Notes**
+**Notes**:
+
 Some notebooks generate HTML reports (via ydata-profiling and sweetviz)
 Google Colab features such as file download are utilized
 
