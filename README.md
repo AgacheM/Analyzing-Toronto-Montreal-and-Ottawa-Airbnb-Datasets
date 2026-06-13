@@ -42,4 +42,6 @@ This project uses the following open-source Python libraries:
 
 These libraries are distributed under permissive licenses such as **MIT** and **BSD**, allowing free use and modification.
 
+The libraries run locally in your Python environment and do not transmit your data externally. 
 
+Data is processed in the runtime environment’s memory, either provided by your local machine or cloud-based platforms like Google Colab).
