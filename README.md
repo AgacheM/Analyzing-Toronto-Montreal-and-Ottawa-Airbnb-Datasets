@@ -1,4 +1,4 @@
-# Analyzing Toronto Airbnb Dataset
+# Analyzing Toronto, Montreal, and Ottawa Airbnb Datasets
 # Introduction
 An exploratory data analysis on the  Toronto Airbnb (November 2025), Ottawa (September 2025) and Montreal (September 2025) datasets. 
 
