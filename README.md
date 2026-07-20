@@ -6,6 +6,8 @@ Performed comprehensive data preparation, including data cleaning, missing value
 
 Developed and evaluated multiple predictive machine learning models, including Linear Regression, Random Forest, and XGBoost, to identify the most significant factors influencing Airbnb listing prices. Model performance was assessed using R², RMSE, MAPE, and K-Fold Cross Validation.
 
+The final XGBoost model was further optimized using Optuna hyperparameter tuning, which employed automated search and cross-validation to identify the parameter combination that maximized predictive performance while reducing the risk of overfitting.
+
 The primary objective of the analysis was to identify listing characteristics, host behaviors, location factors, and guest sentiment indicators that contribute to higher Airbnb pricing and revenue potential. A secondary objective was to help guests identify listings offering best value for their budget.
 
 Key analytical techniques include:
@@ -16,6 +18,7 @@ Log Transformation of Price,
 Sentiment Analysis using VADER,
 Linear Regression Baseline Modeling,
 Random Forest and XGBoost Machine Learning Models,
+Hyperparameter Optimization using Optuna,
 Feature Importance Analysis,
 K-Fold Cross Validation,
 Model Evaluation using R², RMSE, and MAPE
@@ -51,7 +54,8 @@ iii. Dependencies will install automatically (Colab users)
 
 This project uses the following open-source Python libraries:
 
-- `pandas` – data manipulation and analysis  
+- `pandas` – data manipulation and analysis
+- `NumPy` – mathematical operations, array processing, error metric calculations, and data transformations
 - `matplotlib` – data visualization  
 - `seaborn` – statistical data visualization  
 - `ydata-profiling` – automated dataset profiling  
@@ -61,6 +65,7 @@ This project uses the following open-source Python libraries:
 - `LinearRegression` (scikit-learn) – baseline predictive model used to evaluate performance against tree-based machine learning models.
 - `RandomForestRegressor` (scikit-learn) – machine learning algorithm used for Airbnb price prediction and feature importance analysis
 - `XGboost` – gradient boosting machine learning framework used to implement Extreme Gradient Boosting (XGBoost) models for predictive performance comparison
+- `Optuna` – automated hyperparameter optimization framework used to identify optimal XGBoost model parameters through iterative search and cross-validated performance evaluation
 - `SHAP` (SHapley Additive exPlanations) – model interpretability framework used to explain XGBoost predictions and evaluate feature importance using Shapley values.
 - `time` – runtime measurement and computational performance benchmarking
 - `vaderSentiment` – lexicon and rule based sentiment analysis of Airbnb reviews using the VADER (Valence Aware Dictionary and sEntiment Reasoner) framework
