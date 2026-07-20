@@ -57,9 +57,10 @@ This project uses the following open-source Python libraries:
 - `ydata-profiling` – automated dataset profiling  
 - `sweetviz` – exploratory data analysis reports  
 - `IPython` – enhanced notebook display tools
-- `scikit-learn` – machine learning framework for data preprocessing, train-test splitting, model development, and performance evaluation
+- `scikit-learn` – machine learning framework for data preprocessing, train-test splitting, feature encoding, K-fold cross validation, model development and evaluation, and performance evaluation
 - `RandomForestRegressor` – machine learning algorithm used for Airbnb price prediction and feature importance analysis
-- `xgboost` – gradient boosting machine learning framework used to implement Extreme Gradient Boosting (XGBoost) models for predictive performance comparison
+- `XGboost` – gradient boosting machine learning framework used to implement Extreme Gradient Boosting (XGBoost) models for predictive performance comparison
+- `SHAP` (SHapley Additive exPlanations) – model interpretability framework used to explain XGBoost predictions and evaluate feature importance using Shapley values.
 - `time` – runtime measurement and computational performance benchmarking
 - `vaderSentiment` – lexicon and rule based sentiment analysis of Airbnb reviews using the VADER (Valence Aware Dictionary and sEntiment Reasoner) framework
 
