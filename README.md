@@ -6,7 +6,7 @@ Performed comprehensive data preparation, including data cleaning, missing value
 
 Developed and evaluated multiple predictive machine learning models, including Linear Regression, Random Forest, and XGBoost, to identify the most significant factors influencing Airbnb listing prices. Model performance was assessed using R², RMSE, MAPE, and K-Fold Cross Validation.
 
-The primary objective of the analysis was to identify listing characteristics, host behaviors, location factors, and guest sentiment indicators that contribute to higher Airbnb pricing and revenue potential. A secondary objective was to help guests identify features associated with higher value-for-money accommodations.
+The primary objective of the analysis was to identify listing characteristics, host behaviors, location factors, and guest sentiment indicators that contribute to higher Airbnb pricing and revenue potential. A secondary objective was to help guests identify listings offering best value for their budget.
 
 Key analytical techniques include:
 Exploratory Data Analysis (EDA),
