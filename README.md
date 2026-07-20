@@ -58,7 +58,8 @@ This project uses the following open-source Python libraries:
 - `sweetviz` – exploratory data analysis reports  
 - `IPython` – enhanced notebook display tools
 - `scikit-learn` – machine learning framework for data preprocessing, train-test splitting, feature encoding, K-fold cross validation, model development and evaluation, and performance evaluation
-- `RandomForestRegressor` – machine learning algorithm used for Airbnb price prediction and feature importance analysis
+- `LinearRegression` (scikit-learn) – baseline predictive model used to evaluate performance against tree-based machine learning models.
+- `RandomForestRegressor` (scikit-learn) – machine learning algorithm used for Airbnb price prediction and feature importance analysis
 - `XGboost` – gradient boosting machine learning framework used to implement Extreme Gradient Boosting (XGBoost) models for predictive performance comparison
 - `SHAP` (SHapley Additive exPlanations) – model interpretability framework used to explain XGBoost predictions and evaluate feature importance using Shapley values.
 - `time` – runtime measurement and computational performance benchmarking
