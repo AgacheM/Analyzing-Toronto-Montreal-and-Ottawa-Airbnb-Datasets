@@ -9,15 +9,15 @@ Developed and evaluated multiple predictive machine learning models, including L
 The primary objective of the analysis was to identify listing characteristics, host behaviors, location factors, and guest sentiment indicators that contribute to higher Airbnb pricing and revenue potential. A secondary objective was to help guests identify features associated with higher value-for-money accommodations.
 
 Key analytical techniques include:
-Exploratory Data Analysis (EDA)
-Correlation Analysis and Feature Selection
-Missing Value Imputation
-Log Transformation of Price
-Sentiment Analysis using VADER
-Linear Regression Baseline Modeling
-Random Forest and XGBoost Machine Learning Models
-Feature Importance Analysis
-K-Fold Cross Validation
+Exploratory Data Analysis (EDA),
+Correlation Analysis and Feature Selection,
+Missing Value Imputation,
+Log Transformation of Price,
+Sentiment Analysis using VADER,
+Linear Regression Baseline Modeling,
+Random Forest and XGBoost Machine Learning Models,
+Feature Importance Analysis,
+K-Fold Cross Validation,
 Model Evaluation using R², RMSE, and MAPE
 
 
