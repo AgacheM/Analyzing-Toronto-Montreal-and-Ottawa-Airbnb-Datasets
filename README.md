@@ -1,14 +1,14 @@
 # Analyzing Toronto, Montreal, and Ottawa Airbnb Datasets
 # Introduction
-Conducted an exploratory data analysis (EDA) of Airbnb listings and reviews data from Toronto (November 2025), Montreal (September 2025), and Ottawa (September 2025), combining datasets to analyze pricing patterns across major Canadian urban markets.
+  Conducted an exploratory data analysis (EDA) of Airbnb listings and reviews data from Toronto (November 2025), Montreal (September 2025), and Ottawa (September 2025), combining datasets to analyze pricing patterns across major Canadian urban markets.
 
-Performed comprehensive data preparation, including data cleaning, missing value treatment, feature engineering, feature selection, multicollinearity assessment, and sentiment analysis. Review text was analyzed using the VADER (Valence Aware Dictionary and sEntiment Reasoner) natural language processing model to generate sentiment-based features that were incorporated into predictive models.
+  Performed comprehensive data preparation, including data cleaning, missing value treatment, feature engineering, feature selection, multicollinearity assessment, and sentiment analysis. Review text was analyzed using the VADER (Valence Aware Dictionary and sEntiment Reasoner) natural language processing model to generate sentiment-based features that were incorporated into predictive models.
 
-Developed and evaluated multiple predictive machine learning models, including Linear Regression, Random Forest, and XGBoost, to identify the most significant factors influencing Airbnb listing prices. Model performance was assessed using R², RMSE, MAPE, and K-Fold Cross Validation.
+  Developed and evaluated multiple predictive machine learning models, including Linear Regression, Random Forest, and XGBoost, to identify the most significant factors influencing Airbnb listing prices. Model performance was assessed using R², RMSE, MAPE, and K-Fold Cross Validation.
 
-The final XGBoost model was further optimized using Optuna hyperparameter tuning, which employed automated search and cross-validation to identify the parameter combination that maximized predictive performance while reducing the risk of overfitting.
+  The final XGBoost model was further optimized using Optuna hyperparameter tuning, which employed automated search and cross-validation to identify the parameter combination that maximized predictive performance while reducing the risk of overfitting.
 
-The primary objective of the analysis was to identify listing characteristics, host behaviors, location factors, and guest sentiment indicators that contribute to higher Airbnb pricing and revenue potential. A secondary objective was to help guests identify listings offering best value for their budget.
+  The primary objective of the analysis was to identify listing characteristics, host behaviors, location factors, and guest sentiment indicators that contribute to higher Airbnb pricing and revenue potential. A secondary objective was to help guests identify listings offering best value for their budget.
 
 Key analytical techniques include:
 Exploratory Data Analysis (EDA),
